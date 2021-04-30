@@ -7,7 +7,7 @@
 
 # Site İçeriği
 ```
--Anasayfa
+-Ana Sayfa
 Kendim hakkında bilgiler verdiğim sayfa.
 
 -Özgeçmiş
@@ -17,7 +17,7 @@ Eğitim bilgilerim hakkında bilgilerin bulunduğu sayfa.
 Sevdiğim şehir hakkında bilgilerin bulunduğu sayfa.
 
 -Mirasımız
-Sevdiğim şehirin kültürel mirasları hakkında bilgilerin bulunduğu sayfa.
+Sevdiğim şehrin kültürel mirasları hakkında bilgilerin bulunduğu sayfa.
 
 -İletişim
 Benimle iletişime geçebileceğiniz sayfa.
