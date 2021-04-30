@@ -5,7 +5,7 @@
 -Kendim ve sevdiğim şehir hakkında bilgi vermek.
 ```
 
-#Site İçeriği
+# Site İçeriği
 ```
 -Anasayfa
 Kendim hakkında bilgiler verdiğim sayfa.
@@ -39,6 +39,6 @@ Kullanıcı adınız ve parolanızla siteye giriş yapabileceğiniz sayfa.
 ```
 
 # Site Linki
-```
+
 - Link : https://g191210091.000webhostapp.com/#
-```
+
