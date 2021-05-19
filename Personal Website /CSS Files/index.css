@@ -1,0 +1,105 @@
+body {
+  background-color: #ebe7d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.container {
+  max-width: 980px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0f222d;
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav-item a {
+  color: #ebe7d9;
+  justify-content: space-between;
+}
+
+.line {
+  width: 0px;
+  height: 2px;
+  background-color: #ebe7d9;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+a:hover + .line {
+  width: 100%;
+  visibility: visible;
+}
+
+.menu {
+  display: none;
+}
+/* /Navbar */
+
+/* Kendi Fotoğrafım */
+.fotograf {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 300px;
+  border-radius: 50%;
+}
+/* /Kendi Fotoğrafım */
+
+/* Hakkımda İçeriği */
+.hakkımda {
+  margin-left: auto;
+  margin-right: auto;
+  width: 83%;
+  font-size: 1.2rem;
+  font-family: "PT Sans", sans-serif;
+}
+/* /Hakkımda İçeriği */
+
+@media screen and (max-width: 991.98px) {
+  /* Navbar */
+  .menu {
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .collapse {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    background-color: #0f222d;
+  }
+
+  .menuController {
+    display: flex !important;
+  }
+
+  .exitController {
+    display: flex !important;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-item {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .collapse.animationIn {
+    animation: fadeInRight;
+    animation-duration: 0.5s;
+  }
+
+  /* /Navbar */
+}
