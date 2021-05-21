@@ -1,0 +1,174 @@
+body {
+  background-color: #ebe7d9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.container {
+  width: 100%;
+  max-width: 980px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #0f222d;
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav-item a {
+  color: #ebe7d9;
+  justify-content: space-between;
+}
+
+.line {
+  width: 0px;
+  height: 2px;
+  background-color: #ebe7d9;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+a:hover + .line {
+  width: 100%;
+  visibility: visible;
+}
+
+.menu {
+  display: none;
+}
+
+.btn {
+  margin-top: 30px;
+}
+
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.icerik {
+  display: none;
+}
+
+.icerikbaslik {
+  display: none;
+}
+
+@media screen and (max-width: 991.98px) {
+  .menu {
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .collapse {
+    position: relative;
+    right: 0px;
+    top: -115px;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    background-color: #0f222d;
+  }
+
+  .menuController {
+    display: flex !important;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-item {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .collapse.animationIn {
+    animation: fadeInRight;
+    animation-duration: 0.5s;
+  }
+}
+
+@media (max-width: 768px) {
+  .table thead {
+    display: none;
+  }
+
+  .icerik {
+    display: none;
+  }
+
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+  }
+
+  .table tbody tr td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .table-container {
+    padding: 0 10%;
+    margin: 40px auto 0;
+  }
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "PT Sans", sans-serif;
+}
+
+.table thead {
+  background-color: #0f222d;
+}
+
+.table thead tr th {
+  font-size: 14px;
+  font-weight: medium;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 12px;
+  vertical-align: top;
+  border: 1px solid #dee2e685;
+}
+
+.table tbody tr td {
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  font-weight: normal;
+  color: #f1f1f1;
+  background-color: #3c3f44;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #dee2e685;
+}
+
+.table tbody tr td .buton {
+  width: 100px;
+}

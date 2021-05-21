@@ -1,24 +1,31 @@
 body {
   background-color: #ebe7d9;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 .container {
   max-width: 980px;
   width: 100%;
-  text-align: center;
 }
 
-/* Navbar */
+.absolute {
+  margin-top: 30px;
+  font-family: "Lato", sans-serif;
+}
+
+.baslik {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .navbar {
   background-color: #0f222d;
+  font-size: 16px;
 }
 
 .logo {
   height: 100px;
-}
-.baslik {
-  margin-top: 50px;
 }
 
 .nav-item a {
@@ -42,29 +49,34 @@ a:hover + .line {
 .menu {
   display: none;
 }
-/* /Navbar */
 
-/* Kendi Fotoğrafım */
-.fotograf {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 300px;
-  border-radius: 50%;
+.col {
+  margin-bottom: 20px;
 }
-/* /Kendi Fotoğrafım */
 
-/* Hakkımda İçeriği */
-.hakkımda {
-  margin-left: auto;
-  margin-right: auto;
-  width: 83%;
-  font-size: 1.2rem;
-  font-family: "Lato", sans-serif;
+.first-alert {
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+  border: 2px solid #0f222d;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: none;
+  font-size: 18px;
 }
-/* /Hakkımda İçeriği */
+
+span {
+  color: #dc3232;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  display: none;
+}
+
+.vsb2 {
+  visibility: visible;
+}
 
 @media screen and (max-width: 991.98px) {
-  /* Navbar */
   .menu {
     display: block;
     cursor: pointer;
@@ -85,10 +97,6 @@ a:hover + .line {
     display: flex !important;
   }
 
-  .exitController {
-    display: flex !important;
-  }
-
   .navbar-nav {
     margin-left: auto;
     margin-right: auto;
@@ -104,5 +112,7 @@ a:hover + .line {
     animation-duration: 0.5s;
   }
 
-  /* /Navbar */
+  .container {
+    width: 100%;
+  }
 }
