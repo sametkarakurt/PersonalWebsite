@@ -15,12 +15,24 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/CSS Files/index.css" />
+    <link rel="stylesheet" href="CSS Files/mesajlar.css" />
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Orelega+One&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 
     <link
       rel="stylesheet"
@@ -51,7 +63,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.php"
+              <a class="nav-link" aria-current="page" href="index.html"
                 >Ana Sayfa</a
               >
               <div class="line"></div>
@@ -88,7 +100,7 @@
     <div class="container">
       <h1 class="baslik">Mesaj</h1>
       <div class="w3-card">
-        <p>
+        <p class="mesaj">
           <?php
 
 echo "".$_POST['mesaj']." " ;
@@ -97,8 +109,11 @@ echo "".$_POST['mesaj']." " ;
 ?>
         </p>
       </div>
+      <button type="button" class="btn btn-danger">
+        <a class="btnGeri" href="loginaccess.php">Geri Dön</a>
+      </button>
     </div>
-    <script src="/JS Files/index.js"></script>
+    <script src="JS Files/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"

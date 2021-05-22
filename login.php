@@ -66,6 +66,10 @@
             <i class="fas fa-arrow-right"></i>
           </button>
         </form>
+        <div class="info">
+          <p>Kullanıcı Adı : g191210091@ogr.sakarya.edu.tr</p>
+          <p>Şifre : g191210091</p>
+        </div>
       </div>
     </div>
 
@@ -86,7 +90,7 @@ session_start();
 
 if(isset($_POST["username"] , $_POST["password"]))
 {
-  if($_POST["username"]=="admin" && $_POST["password"] == "1234"){
+  if($_POST["username"]=="g191210091@ogr.sakarya.edu.tr" && $_POST["password"] == "g191210091"){
 
     $_SESSION["user"]=$_POST["username"];
     $_SESSION["pass"]=$_POST["password"];
