@@ -1,7 +1,7 @@
 body {
   background-color: #ebe7d9;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 .container {
   width: 100%;
@@ -11,6 +11,7 @@ body {
 
 .navbar {
   background-color: #0f222d;
+  font-size: 16px;
 }
 
 .logo {
@@ -54,6 +55,21 @@ a:hover + .line {
 
 .icerikbaslik {
   display: none;
+}
+
+.username {
+  margin-top: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.password {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.cikis {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -165,7 +181,7 @@ a:hover + .line {
   color: #f1f1f1;
   background-color: #3c3f44;
   padding: 8px;
-  text-align: center;
+
   border: 1px solid #dee2e685;
 }
 

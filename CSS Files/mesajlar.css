@@ -1,28 +1,28 @@
 body {
   background-color: #ebe7d9;
   font-family: "Montserrat", sans-serif;
-
   font-size: 18px;
 }
 .container {
-  text-align: center;
-  width: 100%;
   max-width: 980px;
+  width: 100%;
+  text-align: center;
 }
 
-h1 {
-  margin-top: 50px;
-  font-family: "Inconsolata", monospace;
-  font-size: 48px;
-}
-
+/* Navbar */
 .navbar {
   background-color: #0f222d;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 
 .logo {
   height: 100px;
+}
+.baslik {
+  margin-top: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 30px;
 }
 
 .nav-item a {
@@ -46,20 +46,10 @@ a:hover + .line {
 .menu {
   display: none;
 }
-
-p {
-  font-family: "Lato", sans-serif;
-}
-.card-title {
-  font-family: "Inconsolata", monospace;
-}
-
-.row {
-  margin-top: 35px;
-  margin-bottom: 35px;
-}
+/* /Navbar */
 
 @media screen and (max-width: 991.98px) {
+  /* Navbar */
   .menu {
     display: block;
     cursor: pointer;
@@ -67,9 +57,9 @@ p {
   }
 
   .collapse {
-    position: absolute;
+    position: relative;
     right: 0px;
-    top: 0px;
+    top: -115px;
     width: 100%;
     height: 100vh;
     display: none;
@@ -80,9 +70,8 @@ p {
     display: flex !important;
   }
 
-  .carousel-inner {
-    width: 980px;
-    height: 538px;
+  .exitController {
+    display: flex !important;
   }
 
   .navbar-nav {
@@ -100,14 +89,24 @@ p {
     animation-duration: 0.5s;
   }
 
-  .card-body {
-    box-shadow: 0 0 20px 7px rgba(0, 0, 0 1);
-  }
+  /* /Navbar */
+}
 
-  .card {
-    margin-top: 20px;
-  }
-  h1 {
-    font-size: 35px;
-  }
+.w3-card {
+  font-family: "Lato", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btnGeri {
+  text-decoration: none !important;
+  color: white;
+}
+
+.btnGeri:hover {
+  color: white;
+}
+
+.mesaj {
+  font-size: 20px;
 }

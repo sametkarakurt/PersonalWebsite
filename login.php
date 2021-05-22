@@ -31,24 +31,35 @@
     />
   </head>
   <body>
+    <div class="containerGeri">
+      <i class="fas fa-arrow-circle-left"></i>
+      <a class="linkGeri" href="index.html">Anasayfaya dön</a>
+    </div>
+
     <div class="flex-container">
       <div class="flex-item">
-        <form action="login.php" class="login-form" method="post">
+        <form
+          action="login.php"
+          class="login-form"
+          method="post"
+          onsubmit="return loginkontrol()"
+          name="form"
+        >
           <img class="img-fluid logo" src="/Images/logo.png" />
           <div class="textb">
             <input
               name="username"
+              id="username"
               type="text"
               placeholder="Kullanıcı Adı"
-              required
             />
           </div>
           <div class="textb">
             <input
               name="password"
+              id="password"
               type="password"
               placeholder="Şifre"
-              required
             />
           </div>
           <button class="btnCenter btn">
@@ -58,7 +69,7 @@
       </div>
     </div>
 
-    <script src="/JS Files/index.js"></script>
+    <script src="/JS Files/login.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"

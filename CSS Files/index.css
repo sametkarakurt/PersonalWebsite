@@ -1,7 +1,7 @@
 body {
   background-color: #ebe7d9;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 .container {
   max-width: 980px;
@@ -12,6 +12,7 @@ body {
 /* Navbar */
 .navbar {
   background-color: #0f222d;
+  font-size: 16px;
 }
 
 .logo {
@@ -19,6 +20,8 @@ body {
 }
 .baslik {
   margin-top: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 30px;
 }
 
 .nav-item a {
@@ -59,7 +62,8 @@ a:hover + .line {
   margin-right: auto;
   width: 83%;
   font-size: 1.2rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 100px;
 }
 /* /Hakkımda İçeriği */
 
@@ -72,9 +76,9 @@ a:hover + .line {
   }
 
   .collapse {
-    position: absolute;
+    position: relative;
     right: 0px;
-    top: 0px;
+    top: -115px;
     width: 100%;
     height: 100vh;
     display: none;

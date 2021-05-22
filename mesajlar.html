@@ -4,12 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="CSS Files/ilgialanim.css" />
+    <link rel="stylesheet" href="CSS Files/mesajlar.css" />
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Orelega+One&display=swap"
@@ -19,15 +26,14 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap"
       rel="stylesheet"
     />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
       rel="stylesheet"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -92,40 +98,22 @@
     </nav>
 
     <div class="container">
-      <h1 class="baslik">İLGİ ALANLARIM</h1>
+      <h1 class="baslik">Mesaj</h1>
+      <div class="w3-card">
+        <p class="mesaj">
+          <?php
 
-      <h3 class="alt-baslik">Suç Türünde Dizi & Filmler</h3>
-      <hr />
-      <div id="sucDizi">
-        <p class="paragraf">
-          Boş zamanlarımda film ve dizi izlemeyi severim. Genellikle suç türünde
-          film ve diziler izliyorum. Suçların çözülüş serüveni hoşuma gidiyor.
-          Aşağıda da sevdiğim dizilerden bazıları bulunuyor.
+echo "".$_POST['mesaj']." " ;
+
+
+?>
         </p>
       </div>
-
-      <h3>Alternatif Rock</h3>
-      <hr />
-      <p class="paragraf">
-        Genel olarak müzik dinlemeyi severim ve günün çoğu zamanında müzik
-        dinlerim.Alternatif rock türündeki müzikler diğer tarzlardan daha çok
-        hoşuma gidiyor.Aşağıda da dinlemekten keyif aldığım müzik grupları
-        bulunuyor.
-      </p>
-      <div id="alternatif-rock"></div>
-
-      <h3>Basketbol</h3>
-      <hr />
-
-      <div id="basketbol">
-        <p class="paragraf">
-          Küçüklükten beri basketbola ilgi duyuyorum. Basketbol oynamayı ve
-          maçlarını izlemeyi severim.Aşağıda da beğendiğim takımlar bulunuyor.
-        </p>
-      </div>
+      <button type="button" class="btn btn-danger">
+        <a class="btnGeri" href="loginaccess.php">Geri Dön</a>
+      </button>
     </div>
-
-    <script src="/JS Files/ilgialanlarım.js"></script>
+    <script src="JS Files/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
