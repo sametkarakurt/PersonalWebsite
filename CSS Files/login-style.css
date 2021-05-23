@@ -8,6 +8,11 @@ body {
   background-color: #0f222d;
 }
 
+.info {
+  color: white ;
+  text-align: center ;
+}
+
 .flex-container {
   height: 80vh;
   display: flex;
@@ -112,9 +117,4 @@ input::placeholder {
 .containerGeri {
   margin-left: 20px;
   margin-top: 20px;
-}
-
-.info {
-  color: white;
-  text-align: center;
 }

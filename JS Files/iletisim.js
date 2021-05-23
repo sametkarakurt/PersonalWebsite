@@ -15,8 +15,10 @@ temizleButonu.addEventListener("click", () => {
   uyarı.classList.remove("d-flex");
 
   document.forms["Form"]["isim"].value = null;
-
-  konu = "Konu";
+  document.forms["Form"]["soyisim"].value = null;
+  document.forms["Form"]["email"].value = null;
+  document.forms["Form"]["mesaj"].value = null;
+  document.forms["Form"]["konu"].value = "Konu";
 });
 
 function kontrol() {

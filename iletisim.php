@@ -174,10 +174,10 @@
                 id="konu"
               >
                 <option selected>Konu</option>
-                <option value="1">Genel</option>
-                <option value="2">Yazılım</option>
-                <option value="3">Sponsorluk</option>
-                <option value="4">Reklam & Tanıtım</option>
+                <option value="Genel">Genel</option>
+                <option value="Yazılım">Yazılım</option>
+                <option value="Sponsorluk">Sponsorluk</option>
+                <option value="Reklam & Tanıtım">Reklam & Tanıtım</option>
               </select>
             </div>
 
@@ -241,10 +241,11 @@
 
   if(isset($_POST["isim"] , $_POST["soyisim"] , $_POST["email"] , $_POST["konu"] , $_POST["mesaj"])){
 
+  
       $ad = $_POST["isim"];
       $soyad = $_POST["soyisim"];
       $eposta = $_POST["email"];
-      $konu = $_POST["konu"] ;
+      $konu =  $_POST["konu"];
       $mesaj = $_POST["mesaj"];
  
 

@@ -70,6 +70,7 @@ a:hover + .line {
 
 .cikis {
   font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 991.98px) {
@@ -181,7 +182,7 @@ a:hover + .line {
   color: #f1f1f1;
   background-color: #3c3f44;
   padding: 8px;
-
+  vertical-align: middle;
   border: 1px solid #dee2e685;
 }
 

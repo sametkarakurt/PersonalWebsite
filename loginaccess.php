@@ -70,7 +70,7 @@
 
         <div class="overflow-x:auto;">
           
-          <form action="mesajlar.php" method="post">
+          
             <div class="table-container">
               <table class="table table-hover table-borderless">
                 <thead>
@@ -105,9 +105,7 @@
                             <td data-label='Soyad : '>".$cek['soyad']."</td>
                             <td data-label='Email : '>".$cek['eposta']."</td>
                             <td data-label='Konu : '>".$cek['konu']."</td>
-                            <td style='display:none' class='icerik'><input name='mesaj'  type='text'  class='form-control' value='".$cek['mesaj']."'></td>
-                            <td data-label='Mesaj : '><button type='submit' class='buton'>Mesaj</button></td>
-                          
+                            <td style='text-align:center' data-label='Mesaj :'><br>".$cek['mesaj']."<br><br></td>
                           </tr>
                         </tbody>
 
@@ -130,8 +128,8 @@
             </div>
 
               
-          </form>   
-          <button type="button" class="btn btn-danger"><a class="cikis" href='cikis.php'>ÇIKIŞ YAP</a></button>
+
+          <button type="button" class="cikis btn btn-danger"><a href='cikis.php'>ÇIKIŞ YAP</a></button>
 
 
         </div>
