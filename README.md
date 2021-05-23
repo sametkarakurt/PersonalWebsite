@@ -40,5 +40,5 @@ Kullanıcı adınız ve parolanızla siteye giriş yapabileceğiniz sayfa.
 
 # Site Linki
 
-- Link : http://www.samettkarakurt.byethost4.com/index.html
+- Link : http://samettkarakurtt.byethost6.com/
 
