@@ -40,5 +40,5 @@ Kullanıcı adınız ve parolanızla siteye giriş yapabileceğiniz sayfa.
 
 # Site Linki
 
-- Link : https://g191210091.000webhostapp.com/#
+- Link : http://www.samettkarakurt.byethost4.com/index.html
 
